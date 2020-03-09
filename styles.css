@@ -1,155 +1,154 @@
 * {
-    margin: 0px
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
     
 }
 
-.wrapper {
+.body {
     width: 100%;
 }
 
-.img-code {
-
-    display: none;
-    
-}
-
-.img-info h1 {
-    text-align: left;
+.Code {
     color: #20a8b4;
-    background: #F2F2F2;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    
-    
-    
-}
-
-.img-info h2 {
-    color: black;
-    text-align: left;
-
-}
-
-h1 {
-    text-align: left;
-    color: #20a8b4;
-    background: #F2F2F2;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-h2 {
-    color: black;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    margin: 10px
-    
-
-}
-
-    .container {
-        
-        text-decoration: none;
-        width: 100%;
-        height: 100%;
-        background-color:#F2F2F2;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        flex-direction: column
-
-
-    }
-
-    .Bootcamps {
-        text-decoration: none;
-        margin-top: 10px;
-        margin-left: 10px;
-        flood-color: #ff5c0f
-           }
-
-        .Workshops {
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-
-        .Custom-Training {
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-        
-
-    .body {
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-    }
-    a{
-        text-decoration: none;
-    }
-
-    .Learn {
-        margin-left: 10px;
-        font-family: 'Roboto', sans-serif;
-
-
-    }
-
-    .Code {
-        color: #20a8b4;
-        font-size: xx-large
-
-    }
-    
-.container2 {
-    padding-top: 50px;
-    background-color: white
-    
-    
-
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .code-color-orange {
     color: #ff5c0f;
 }
 
-.Code {
+a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+
+a:hover{
+    color: #ff5c0f;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
     margin-left: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
-.Student-Stories {
-    margin-top: 10px;
-    margin-left: 10px;
+.top {
+    background: #F2F2F2;
+    margin-bottom: 20px;
 }
 
-.Contact-Us {
-    margin-left: 20px;
-    margin-top: 10px;
+
+/* .wrapper {
+    width: 100%;
+} */
+
+.img-code {
+    display: none;  
 }
 
-.Learn-More {
-    margin-left: 20px;
-    margin-top: 10px;
-    font-family: 'Roboto', sans-serif;
+
+/* h1 {
+    text-align: left;
+    color: #20a8b4;
+    background: #F2F2F2;
+    width: 100%;
+} */
+
+h2 {
+    text-align: left;
+    padding-top: 80px;
+    margin-bottom: 10px;
 }
 
 .Learn-orange {
     color: #ff5c0f;
 }
 
-.button {
+p {
+    margin-bottom: 10px;
+}
+
+button {
     color:white;
     background-color: #20a8b4;
-    width: 500px;
+    width: 100%;
     height: 40px;
     border-radius:10px;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    border: 0px;
+}
+
+/* .contact {
+    padding-inline-start: 0;
+} */
+
+button:hover{
+    background-color: #ff5c0f;
+}
+
+.container2 {
+    margin: 10px;
+}
+
+@media only screen and (min-width:768px) {
+    .navigation {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: baseline;
+    }
+    
+    a:hover {
+        color: #ff5c0f;
+        }
+
+    a.button:hover{
+    background-color: #ff5c0f;
+}
+
+button{
+    width:auto;
+}
+
+.learn-more-button {
+    text-align: center;
+}
+
+.img-code {
+    display: initial;
+    height: 400px;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+h2 {
+    margin-top: 100px;
+}
 
 }
 
 
-}
 
 
 
